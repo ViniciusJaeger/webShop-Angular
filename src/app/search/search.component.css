@@ -8,4 +8,9 @@ input[type="text"] {
     height: 30px;
     margin-left: 20px;
     border: none;
+    padding: 0 10px;
+}
+
+.changeBackground {
+    background-color: #FAD7A0;
 }
