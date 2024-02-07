@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SearchComponent {
 
-  searchValue: string = 'Penis';
+  searchValue: string = '';
 
   changeSearchValue(event: Event){
     // console.log((<HTMLInputElement>event.target).value);
