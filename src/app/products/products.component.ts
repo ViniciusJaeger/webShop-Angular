@@ -29,8 +29,13 @@ export class ProductsComponent {
   }
   
   productCountRadioButton: string = 'All';
+  searchText: string = '';
 
   onfilterRadioButtonChanged(data: string){
     this.productCountRadioButton = data;
+  }
+
+  onSearchTextEntered(searchValue: string){
+    this.searchText = searchValue;
   }
 }

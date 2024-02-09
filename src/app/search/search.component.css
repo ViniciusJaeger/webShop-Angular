@@ -15,7 +15,10 @@ input[type="text"] {
 }
 
 .search-container {
-    span {
-        margin-right: 10px;
-    }
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container span {
+    margin-right: 10px;
 }
